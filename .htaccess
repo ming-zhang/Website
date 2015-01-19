@@ -1,0 +1,1 @@
+# Do not remove this line, otherwise mod_rewrite rules will stop workingRewriteBase /ErrorDocument 404 /notfound.html

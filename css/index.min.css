@@ -1,0 +1,98 @@
+﻿
+p.rolling {
+	font-size: 19px;
+	font-weight: 200;
+	margin: 80px 0 40px;
+}
+p.description {
+	font-size: 19px;
+	font-weight: normal;
+	margin: 40px 0 40px;
+}
+@-webkit-keyframes spaceboots {
+	0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+	10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+	20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+	30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+	40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+	50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+	60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+	70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+	80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+	90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+	100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+}
+p.description:hover, p.description:focus {
+	-webkit-animation-name: spaceboots;
+	-webkit-animation-duration: 0.8s;
+	-webkit-transform-origin:50% 50%;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+p b {
+	font-weight: bold;
+}
+
+.content {
+	max-width: 480px;
+	padding: 0 20px;
+	display: block;
+	margin: 10% auto 0;
+}
+.logo h1 a {
+	width: 64px;
+	height: 62px;
+	display: block;
+	background: url('/img/logo.png') top center no-repeat;
+	text-indent: -9999px;
+	padding: 0;
+	margin: 0 auto;
+	border: none;
+	text-align: center;
+	-webkit-transition-duration: 0.8s;
+	-moz-transition-duration: 0.8s;
+	-o-transition-duration: 0.8s;
+	transition-duration: 0.8s;
+	-webkit-transition-property: -webkit-transform;
+	-moz-transition-property: -moz-transform;
+	-o-transition-property: -o-transform;
+	transition-property: transform;
+	overflow:hidden;
+}
+.logo h1 a:hover {
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+}
+
+.content ul li a {
+	width: 33px;
+	height: 33px;
+	display: block;
+	text-indent: -9999px;
+}
+ul li.aboutme a {
+	background: transparent url('/img/aboutme_icn.png') top center no-repeat;
+}
+ul li.resume a {
+	background: transparent url('/img/resume_icn.png') top center no-repeat;
+}
+ul li.email a {
+	background: transparent url('/img/email_icn.png') top center no-repeat;
+}
+
+p.rolling #la {
+	font-family: "Noto Sans";
+}
+p.rolling #sc {
+	font-family: Tahoma, Helvetica, Arial, "Microsoft Yahei","微软雅黑", STXihei, "华文细黑", sans-serif;
+}
+p.rolling #jp {
+	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+p.description#la {
+	font-family: Coda;
+}
+p.description#sc {
+	font-family: Source-Han-Light127431;
+}

@@ -1,0 +1,76 @@
+html, body { color: #434242; font-family: 'Montserrat', sans-serif !important; height: 100%; }
+body { background: #F3EFE0; font-size: 15px; line-height: 1.64; }
+
+h1{ font-family: 'Open Sans', sans-serif !important; margin-bottom: 20px; font-weight: 700; margin-bottom: 10px; }
+
+p.lead { text-align: center; color: #727878; }
+p.lead a { color: #FFFFFF; text-decoration: underline; }
+p.lead a:hover { text-decoration: none; }
+
+.jumbotron {
+	background: no-repeat center right fixed url(images/background.jpg);
+
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/background.jpg', sizingMethod='scale');
+	
+	margin-bottom: 0px;
+	padding: 0px;
+}  
+.jumbotron .overlay { background-color: #22A39F; position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; opacity: 0.75; filter:alpha(opacity=75); z-index: 2; }
+.jumbotron .container { position: relative; top: 28%; z-index: 4; text-align: center; max-width: 1280px; padding: 40px 180px; }
+.jumbotron .container > * { text-align: center; color: #FFFFFF; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container .lead { font-size: 28px; }
+
+
+@media (max-width: 767px) { 
+	.jumbotron:before {
+		bottom: 100px;
+		left: 20px;
+		right: 20px;
+		top: 20px;		
+	}
+	.jumbotron .container { top: 20%; padding-top: 0px; }
+	
+	.container { padding: 60px 20px; min-width: 280px; }
+}    
+
+@media only screen and (orientation: portrait) and (max-width: 767px)  {
+    .jumbotron {
+      -webkit-background-size: auto 150%;
+      background-attachment: scroll;
+    }
+}
+@media only screen and (orientation: landscape) and (max-width: 767px)  {
+
+    .jumbotron {
+      -webkit-background-size: 150% auto;
+      background-attachment: scroll;
+    }
+	
+	.jumbotron .lead { display: none; }
+}
+
+@keyframes wiggle {
+	0% {
+		padding-top: 20px;
+	}
+
+	50% {
+		padding-top: 28px;
+	}
+
+	100% {
+		padding-top: 20px;
+	}
+}

@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<title>404 Not Found | Ming Zhang</title>
+		<link href="/css/fonts.min.css" rel="stylesheet">
+		<link href="/css/bootstrap.min.css" rel="stylesheet">
+		<link href="/css/jquery.iedialog.min.css" rel="stylesheet">
+		<link href="/css/notfound.css" rel="stylesheet">
+	</head>
+	<body>	
+		<div class="jumbotron" data-src="/img/kitten.gif" data-position="center right">
+			<div class="container">
+				<h1>404 - Page not found</h1>
+				<p class="lead">We only found a sleeping kitten. <a href="/">Return to the homepage</a></p>
+			</div>
+
+			<div class="overlay"></div>
+		</div>
+		
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="/js/jquery.min.js"></script>
+		<script type="text/javascript" src="/js/jquery.iedialog.min.js"></script>
+		<script type="text/javascript">
+			
+			$('body').ieDialog({
+				closable: false
+			});  
+			
+			$(document).ready(function()
+			{	
+				$('.jumbotron').css({ height: ($(window).height()) +'px' });
+				
+				lazyLoad($('.jumbotron'));
+			});
+
+			$(window).on('resize', function() 
+			{  
+				$('.jumbotron').css({ height: ($(window).height()) +'px' });
+			});  	
+
+			function lazyLoad(poContainer)
+			{
+				var lstrSource   = poContainer.attr('data-src');
+				var lstrPosition = poContainer.attr('data-position');
+
+				$('<img>').attr('src', lstrSource).load(function()
+				{
+					poContainer.css('background-image', 'url("'+ lstrSource +'")');
+					poContainer.css('background-position', lstrPosition);
+					poContainer.css('-ms-filter', '"progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\')"');
+					poContainer.css('filter', 'progid:DXImageTransform.Microsoft.AlphaImageLoader(src=\'' + lstrSource + '\', sizingMethod=\'scale\'');
+				});
+			}
+		</script>
+		<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+	</body>
+</html>
