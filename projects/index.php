@@ -47,7 +47,7 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-1 col-md-1"></div>
 		<div class="col-xs-12 col-sm-2 col-md-2">
-			<a href="//iyprtc.shenzhong.net/"><img src="iyprtc_logo.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a>
+			<a href="//iyprtc.shenzhong.net/"><img src="iyprtc_logo.jpg" class="img-responsive img-thumbnail" alt="IYPRTC 2014"></a>
 		</div>
 		<div class="col-xs-12 col-sm-3 col-md-3">
 			<h3>International Young Pioneer Round Table Conference 2014</h3>
@@ -59,7 +59,7 @@
 			</p>
 		</div>
 		<div class="col-xs-12 col-sm-2 col-md-2">
-			<a href="//instagram.com/das.wort"><img src="daswort_logo.jpg" class="img-responsive img-thumbnail" alt="Responsive image"></a>
+			<a href="//instagram.com/das.wort"><img src="daswort_logo.jpg" class="img-responsive img-thumbnail" alt="das.wort"></a>
 		</div>
 		<div class="col-xs-12 col-sm-3 col-md-3">
 			<h3>das.wort</h3>
@@ -75,7 +75,7 @@
 	<div class="row">
 		<div class="col-xs-12 col-sm-1 col-md-1"></div>
 		<div class="col-xs-12 col-sm-2 col-md-2">
-			<a href="//resume.mingzhang.me/"><img src="/img/favicon-196x196.png" class="img-responsive img-thumbnail" alt="Responsive image"></a>
+			<a href="//resume.mingzhang.me/"><img src="/img/favicon-196x196.png" class="img-responsive img-thumbnail" alt="Online Resume"></a>
 		</div>
 		<div class="col-xs-12 col-sm-3 col-md-3">
 			<h3>My Online Resume</h3>
@@ -84,10 +84,17 @@
 			</p>
 		</div>
 		<div class="col-xs-12 col-sm-2 col-md-2">
-			
+			<a href="//bbq.yan.ac/"><img src="barbecue.jpg" class="img-responsive img-thumbnail" alt="Linguistics Competition"></a>
 		</div>
 		<div class="col-xs-12 col-sm-3 col-md-3">
-
+			<h3>National Linguistics Competition Website (Front-End)</h3>
+			<p>
+				Front-end (basically all the webpages you see) of the
+				official website of 2015 National Interscholastic Linguistics
+				Competition of China. Click the logo to see the official page.
+				<a href="//ming-zhang.github.io/Barbecue/">Click here to see the GitHub page,
+				which is an unfunctional front-end design.</a>
+			</p>
 		</div>
 		<div class="col-xs-12 col-sm-1 col-md-1"></div>
 	</div>
