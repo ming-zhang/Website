@@ -30,11 +30,12 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li><a href="/"><span>Home</span></a></li>
-
 				<li><a href="/about/"><span>About</span></a></li>
 				<li><a href="/projects/"><span>Projects</span></a></li>
 				<li class="active"><a href="#"><span>Contact</span></a></li>
-
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#"><i class="fa fa-external-link"></i> R&#233;sum&#233;</a></li>
 			</ul>
 		</div>
 	</div>
@@ -67,7 +68,7 @@
 				<li><a href="http://www.mingzhang.me/" title="Home"><i class="fa fa-home"></i> My homepage</a></li>
 				<li><a href="//resume.mingzhang.me/" title="R&#233;sum&#233;"><i class="fa fa-file"></i> My online résumé</a></li>
 				<li><a href="mailto:&#109;&#105;&#110;&#103;&#64;&#109;&#105;&#110;&#103;&#122;&#104;&#97;&#110;&#103;&#46;&#99;&#111;&#109;" title="Email"><i class="fa fa-envelope"></i> Send me an email</a></li>
-				<li><a href="//github.com/ming-zhang/"><i class="fa fa-github-square"></i> My Github page</a></li>
+				<li><a href="//github.com/ming-zhang/"><i class="fa fa-github-square"></i> My GitHub page</a></li>
 			</ul>
 			<p>Links that are not so useful:</p>
 			<ul>
@@ -78,7 +79,7 @@
 		<div class="col-xs-12 col-md-1"></div>
 	</div>
 	<div class="row">
-		<div class="col-md-3"><p>Last Updated: Jan 16, 2015.</p></div>
+		<div class="col-md-3"><p>Last Updated: Jan 30, 2015.</p></div>
 		<div class="col-md-2"></div>
 		<div class="col-md-2">
 			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mingzhang.me%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>

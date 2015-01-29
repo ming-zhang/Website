@@ -30,11 +30,12 @@
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
 				<li><a href="/"><span>Home</span></a></li>
-
 				<li><a href="/about/"><span>About</span></a></li>
 				<li class="active"><a href="#"><span>Projects</span></a></li>
 				<li><a href="/contact/"><span>Contact</span></a></li>
-
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+        		<li><a href="#"><i class="fa fa-external-link"></i> R&#233;sum&#233;</a></li>
 			</ul>
 		</div>
 	</div>
@@ -100,7 +101,7 @@
 	</div>
 	<hr>
 	<div class="row">
-		<div class="col-md-3"><p>Last Updated: Jan 9, 2015.</p></div>
+		<div class="col-md-3"><p>Last Updated: Jan 30, 2015.</p></div>
 		<div class="col-md-2"></div>
 		<div class="col-md-2">
 			<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.mingzhang.me%2F&amp;width&amp;layout=button_count&amp;action=like&amp;show_faces=true&amp;share=true&amp;height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
